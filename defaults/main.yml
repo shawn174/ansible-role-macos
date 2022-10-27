@@ -38,19 +38,26 @@ macos_homebrew_pkg:
   - "httpie"
   - "hugo"
   - "imagemagick"
+  - "imapsynctool"
   - "jq"
+  - "lazygit"
   - "lsd"
   - "mas"
   - "ncdu"
+  - "ncftp"
   - "ncurses"
   - "neofetch"
   - "neovim"
   - "newsboat"
-  - "node"
+#  - "node"
+  - "nmap"
+  - "offlineimap"
   - "openssl@1.1"
   - "pcre"
   - "pcre2"
-  - "python@3.9"
+  - "python@3.10"
+  - "pyyaml"
+  - "qrencode"
   - "ranger"
   - "readline"
   - "ripgrep"
@@ -59,15 +66,21 @@ macos_homebrew_pkg:
   - "six"
   - "speedtest-cli"
   - "sqlite"
+  - "tcping"
+  - "teleport"
   - "telnet"
   - "terraform"
   - "terraform-ls"
   - "tig"
   - "tree"
   - "tree-sitter"
+  - "wakeonlan"
   - "wget"
+  - "wireguard-go"
   - "xz"
   - "yamllint"
+  - "ykman"
+  - "youtube-dl"
   - "yq"
   - "zsh"
   - "zsh-autosuggestions"
@@ -78,11 +91,23 @@ macos_homebrew_pkg_ext: []
 
 # Set default Homebrew cask packages
 macos_homebrew_cask_pkg:
+  - "1password"
+  - "1password-cli"
+  - "alfred"
+  - "anydesk"
+  - "audio-hijack"
+  - "balenaetcher"
   - "caffeine"
+  - "calibre"
   - "cloudflare-warp"
-  - "discord"
-  - "docker"
-  - "flux"
+#  - "discord"
+#  - "docker"
+  - "drawio"
+  - "dropbox"
+  - "firefox"
+  - "fission"
+#  - "flux"
+  - "freac"
   - "font-consolas-for-powerline"
   - "font-fira-code"
   - "font-hack-nerd-font"
@@ -92,31 +117,57 @@ macos_homebrew_cask_pkg:
   - "font-meslo-lg-nerd-font"
   - "font-roboto-mono"
   - "font-roboto-mono-for-powerline"
+  - "github"
   - "goland"
+  - "google-chrome"
+  - "google-drive"
+  - "google-earth-pro"
   - "gpg-suite-no-mail"
-  - "iriunwebcam"
-  - "keybase"
-  - "notion"
-  - "pycharm"
-  - "rectangle"
+  - "handbrake"
+  - "istat-menus"
+#  - "iriunwebcam"
+  - "iterm2" 
+#  - "keybase"
+  - "microsoft-autoupdate"
+  - "microsoft-teams"
+  - "microsoft-office"
+  - "mullvadvpn"
+#  - "notion"
+  - "omnigraffle"
+  - "onyx"
+  - "parallels"
+  - "parallels-virtualization-sdk"
+  - "pgadmin4"
+  - "plex"
+#  - "pycharm"
+#  - "rectangle"
+  - "skype"
+  - "sonos"
+  - "textmate"
+  - "timemachineeditor"
+  - "transmission"
+  - "turbovnc-viewer"
+  - "unetbootin"
+  - "vagrant"
+  - "viscosity"
   - "visual-studio-code"
-  - "zoomus"
+  - "vlc"
+  - "webex"
+  - "xquartz"
+  - "yubico-yubikey-manager"
+  - "zoom"
 
 # Set extras Homebrew cask packages
 macos_homebrew_cask_pkg_ext: []
 
 # Set default Mac App Store (MAS) packages
 macos_mas_pkg:
-  - name: "Day"
-    id: 1055511498
-  - name: "Flow"
-    id: 1423210932
+  - name: "Be Focused Pro"
+    id: 961632517
+  - name: "Fantastical"
+    id: 975937182
   - name: "GarageBand"
     id: 682658836
-  - name: "Hidden"
-    id: 1452453066
-  - name: "IP"
-    id: 404167149
   - name: "Keynote"
     id: 409183694
   - name: "Numbers"
@@ -125,20 +176,56 @@ macos_mas_pkg:
     id: 409201541
   - name: "Slack"
     id: 803453959
-  - name: "Telegram"
-    id: 747648890
-  - name: "Things3"
+  - name: "Mactracker"
+    id: 430255202
+  - name: "Things"
     id: 904280696
-  - name: "Twitter"
-    id: 1482454543
+  - name: "PCalc"
+    id: 403504866
   - name: "WireGuard"
     id: 1451685025
   - name: "Xcode"
     id: 497799835
-  - name: "iA"
-    id: 775737590
+  - name: "Remote Desktop"
+    id: 409907375
   - name: "iMovie"
     id: 408981434
+  - name: "Serial"
+    id: 877615577
+  - name: "SomaFM"
+    id: 449155338
+  - name: "The Unarchiver"
+    id: 425424353
+  - name: "1Password for Safari"
+    id: 1569813296  
+  - name: "Acorn"
+    id: 1547371478
+  - name: "GoodNotes"
+    id: 1444383602
+  - name: "HP Smart"
+    id: 1474276998
+  - name: "Microsoft Remote Desktop"
+    id: 1295203466
+  - name: "MindNode"
+    id: 1289197285
+  - name: "PDF Expert"
+    id: 1055273043
+  - name: "Pi-hole Remote"
+    id: 1515445551
+  - name: "Pixelmator Pro"
+    id: 1289583905
+  - name: "Speedtest"
+    id: 1153157709
+  - name: "UnderTheWX"
+    id: 1078013186
+  - name: "VMware Remote Console"
+    id: 1230249825
+  - name: "Vectornator"
+    id: 1219074514
+  - name: "WireGuard"
+    id: 1451685025
+  - name: "Yubico Authenticator"
+    id: 1497506650
 
 # Set extras Mac App Store (MAS) packages
 macos_mas_pkg_ext: []
