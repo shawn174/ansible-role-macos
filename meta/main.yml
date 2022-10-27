@@ -1,9 +1,9 @@
 galaxy_info:
   role_name: macos
-  namespace: jtprogru
-  author: Michael Savin
-  description: This is sample ansible role used me as boilerplate
-  company: SysOps
+  namespace: shawn174
+  author: Shawn Stephens
+  description: This is sample ansible role for configuring MacOS for daily use
+  company: None
 
   license: WTFPL
 
@@ -15,7 +15,7 @@ galaxy_info:
         - all
 
   galaxy_tags:
-    - bootsptrap
+    - bootstrap
     - macos
     - homebrew
 
