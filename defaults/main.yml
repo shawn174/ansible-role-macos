@@ -1,7 +1,7 @@
 ---
 
 # Set host name
-macos_hostname: "Shawns-MacBook-Pro"
+macos_hostname: "Shawn's MacBook Pro"
 
 # Set default Homebrew tap
 macos_homebrew_tap:
