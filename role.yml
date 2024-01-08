@@ -1,0 +1,12 @@
+---
+- name: macOS
+  hosts: all
+  connection: local
+  become: false
+  gather_facts: true
+
+  vars_files:
+  - defaults/main.yml
+
+  tasks:
+  - import_tasks: tasks/main.yml
