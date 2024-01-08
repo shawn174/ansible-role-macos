@@ -1,16 +1,16 @@
 ---
 
 # Set host name
-macos_hostname: "shawns-mbp"
+macos_hostname: "Shawns-MacBook-Pro"
 
 # Set default Homebrew tap
 macos_homebrew_tap:
   - "hashicorp/tap"
   - "homebrew/bundle"
-  - "homebrew/cask"
+#  - "homebrew/cask"
   - "homebrew/cask-fonts"
   - "homebrew/cask-versions"
-  - "homebrew/core"
+#  - "homebrew/core"
   - "homebrew/services"
 
 # Set extras Homebrew tap
@@ -40,7 +40,7 @@ macos_homebrew_pkg:
   - "gnu-sed"
   - "go"
   - "imagemagick"
-  - "imapsynctool"
+  - "imapsync"
   - "ipmitool"
   - "lazygit"
   - "lsd"
@@ -107,6 +107,7 @@ macos_homebrew_cask_pkg:
   - "font-meslo-lg-nerd-font"
   - "font-roboto-mono"
   - "font-roboto-mono-for-powerline"
+  - "fujitsu-scansnap-home"
   - "github"
   - "google-chrome"
   - "google-drive"
@@ -117,7 +118,8 @@ macos_homebrew_cask_pkg:
 #  - "iriunwebcam"
   - "iterm2" 
 #  - "keybase"
-  - "microsoft-autoupdate"
+  - "logitech-options"
+#  - "microsoft-autoupdate"
   - "microsoft-teams"
   - "microsoft-office"
   - "mullvadvpn"
@@ -136,7 +138,7 @@ macos_homebrew_cask_pkg:
   - "textmate"
   - "timemachineeditor"
   - "transmission"
-  - "turbovnc-viewer"
+#  - "turbovnc-viewer"
   - "unetbootin"
   - "vagrant"
   - "viscosity"
@@ -154,8 +156,6 @@ macos_homebrew_cask_pkg_ext: []
 macos_mas_pkg:
   - name: "Be Focused Pro"
     id: 961632517
-  - name: "Fantastical"
-    id: 975937182
   - name: "GarageBand"
     id: 682658836
   - name: "Keynote"
@@ -206,8 +206,6 @@ macos_mas_pkg:
     id: 1153157709
   - name: "UnderTheWX"
     id: 1078013186
-  - name: "VMware Remote Console"
-    id: 1230249825
   - name: "Vectornator"
     id: 1219074514
   - name: "WireGuard"
