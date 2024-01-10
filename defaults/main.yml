@@ -123,6 +123,7 @@ macos_homebrew_cask_pkg:
   - "microsoft-teams"
   - "microsoft-office"
   - "mullvadvpn"
+  - "nomachine"
 #  - "notion"
   - "omnigraffle"
   - "onyx"
