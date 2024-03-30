@@ -126,7 +126,7 @@ macos_homebrew_cask_pkg:
   - "microsoft-teams"
   - "microsoft-office"
   - "mullvadvpn"
-  - "nomachine"
+#  - "nomachine"
 #  - "notion"
   - "omnigraffle"
   - "onyx"
@@ -213,8 +213,6 @@ macos_mas_pkg:
     id: 1078013186
   - name: "Vectornator"
     id: 1219074514
-  - name: "WireGuard"
-    id: 1451685025
   - name: "Yubico Authenticator"
     id: 1497506650
   - name: "Shell Fish"
