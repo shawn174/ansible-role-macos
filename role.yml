@@ -1,5 +1,5 @@
 ---
-- name: macOS
+- name: macOS app loadout
   hosts: all
   connection: local
   become: false
