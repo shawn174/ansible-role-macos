@@ -2,6 +2,10 @@
 
 This is simple ansible role for configure hostname and install my favorite software from Homebrew and Mac App Store.
 
+# Usage
+To start from a fresh MacOS install, run the scripts/prep.sh to get all the dependencies installed (Xcode, Rosetta, Homebrew and finally Ansible)
+
+Once the prep is done, run: ansible-playbook shawn.yml
 
 ## Role Variables
 
