@@ -21,5 +21,9 @@ brew install ansible
 
 ## Install with Ansible
 echo "installing Ansible requirements"
-
 ansible-galaxy install -r requirements.yml
+
+# Grab the latest ansible-role-macos
+echo "Getting latest ansible-role-macos an unzipping"
+curl https://github.com/shawn174/ansible-role-macos/archive/refs/heads/main.zip -o ansible-role-macos.zip
+unzip ansible-role-macos.zip
