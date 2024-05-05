@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## Installing Ansible + required items
-echo "installing pre-req tools"
+echo "installing pre-req Apple tools"
 
 xcode-select --install
 
@@ -9,19 +9,19 @@ sudo xcodebuild -license
 
 /usr/sbin/softwareupdate --install-rosetta
 
+# Enable remote login
+echo "enabling remote login"
+sudo systemsetup -setremotelogin on
+
+# Install homebrew
+echo "installing Homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+## Install Ansible and some dependencies
+echo "installing ansible"
 brew install ansible
-
-#curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-
-#python3 get-pip.py
-
-#sudo pip3 install --ignore-installed ansible
-
-## Install with Ansible
 echo "installing Ansible requirements"
-ansible-galaxy install -r requirements.yml
+ansible-galaxy collection install geerlingguy.mac
 
 # Grab the latest ansible-role-macos
 echo "Getting latest ansible-role-macos an unzipping"
