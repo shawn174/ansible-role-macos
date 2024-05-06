@@ -28,6 +28,8 @@ mkdir ~/src
 cd ~/src
 
 # Grab the latest ansible-role-macos
-echo "Pulling the latest ansible-role-macos"
-git clone 
+echo "Installing git and cloning the latest ansible-role-macos"
+brew install git
+git clone https://github.com/shawn174/ansible-role-macos.git
+
 echo "Now run: ansible-playbook ~/src/ansible-role-macos/role.yml"
