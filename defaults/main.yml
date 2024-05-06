@@ -6,6 +6,7 @@ macos_hostname: "Shawns-MacBook-Pro"
 # dotfiles
 dotfiles_repo: https://github.com/shawn174/dotfiles.git
 dotfiles_repo_accept_hostkey: true
+dotfiles_repo_version: master
 dotfiles_repo_local_destination: ~/src/dotfiles
 dotfiles_files:
   - .zshrc
@@ -14,6 +15,13 @@ dotfiles_files:
   - .osx
   - .vimrc
 osx_script: "~/.osx --no-restart"
+
+dotfiles_home: "~"
+dotfiles_files:
+  - .zshrc
+  - .gitignore
+  - .inputrc
+  - .vimrc
 
 # Set default Homebrew tap
 macos_homebrew_tap:
