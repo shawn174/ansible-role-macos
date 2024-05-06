@@ -264,6 +264,8 @@ macos_mas_pkg:
     id: 747648890
   - name: "WiFi Scanner"
     id: 411680127
+  - name: "Xcode"
+    id: 497799835
 
 # Set extras Mac App Store (MAS) packages
 macos_mas_pkg_ext: []
