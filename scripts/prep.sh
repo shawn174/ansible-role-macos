@@ -22,7 +22,6 @@ echo "installing ansible"
 brew install ansible
 echo "installing Ansible requirements"
 ansible-galaxy collection install geerlingguy.mac
-ansible-galaxy role install elliotweiser.osx-command-line-tools
 
 # Create ~/src
 mkdir ~/src
