@@ -32,4 +32,4 @@ echo "Installing git and cloning the latest ansible-role-macos"
 brew install git
 git clone https://github.com/shawn174/ansible-role-macos.git
 
-echo "Now run: ansible-playbook ~/src/ansible-role-macos/role.yml"
+echo "Now run: ansible-playbook ~/src/ansible-role-macos/role.yml --ask-become-pass" Enter your macOS account password when prompted for the 'BECOME' password.
