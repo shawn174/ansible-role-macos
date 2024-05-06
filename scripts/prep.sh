@@ -27,3 +27,7 @@ ansible-galaxy collection install geerlingguy.mac
 echo "Getting latest ansible-role-macos an unzipping"
 curl https://github.com/shawn174/ansible-role-macos/archive/refs/heads/main.zip -o ansible-role-macos.zip
 unzip ansible-role-macos.zip
+
+# Install my dotfiles for environment and change some settings with .osx
+curl https://github.com/shawn174/dotfiles/archive/refs/heads/main.zip -o shawn174-dotfiles.zip
+unzip shawn174-dotfiles.zip
