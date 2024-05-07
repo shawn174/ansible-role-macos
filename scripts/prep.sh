@@ -16,6 +16,7 @@ sudo systemsetup -setremotelogin on
 # Install homebrew
 echo "installing Homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ## Install Ansible and some dependencies
 echo "installing ansible"
