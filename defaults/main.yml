@@ -202,6 +202,10 @@ macos_homebrew_cask_pkg_ext: []
 
 # Set default Mac App Store (MAS) packages
 macos_mas_pkg:
+  - nmae: "Amazon Kindle"
+    id: 302584613
+  - name: "Amazon Prime Video"
+    id: 545519333
   - name: "Be Focused Pro"
     id: 961632517
   - name: "GarageBand"
